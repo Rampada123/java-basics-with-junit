@@ -21,7 +21,7 @@ public class LgTest {
     }
 
     @After
-    public void tearDown() {
+    public void tearDown() { 
         System.setOut(originalOut);
     }
 
