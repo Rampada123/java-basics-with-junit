@@ -7,11 +7,12 @@ public class AtmAPP {
         Scanner sc = new Scanner(System.in);
         AtmSystem atm = new AtmSystem();
         System.out.println("Your cuurent balance: "+atm.getBalance());
+        
         System.out.print("Enter withdrawal amount: ");
-        double withdraw = sc.nextDouble();
+        double withdraw2 = sc.nextDouble();
 
         
-        atm.withdrawAmount(withdraw);
+        atm.withdrawAmount(withdraw2);
 
         sc.close();
     }
