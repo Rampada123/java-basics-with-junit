@@ -12,7 +12,7 @@ public class AtmSystem {
 
     // method to check withdrawal
     public void withdrawAmount(double withdraw) {
-        if (withdraw <= balance) {
+        if (withdraw <= balance && withdraw>0) {
             balance = balance - withdraw;
             System.out.println("Transaction Successful");
             System.out.println("Remaining Balance: " + balance);
